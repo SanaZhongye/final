@@ -1,0 +1,12 @@
+.btn-pink {
+  background-color: #82B3D3;
+  color: black;
+  padding: 15px 25px; 
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 4px;
+}
+
+.btn-pink:hover {
+  background-color: gray;
+}

@@ -1,0 +1,20 @@
+.banner {
+	background-image: url(../../image/map.jpg); 
+	background-size: cover;
+	background-position: center;
+	padding: 160px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.banner h1 {
+	color: white;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.banner p {
+	color: white;
+	font-size: 30px;
+	font-family: "Times New Roman", Times, serif;
+}

@@ -1,0 +1,90 @@
+@import url("componets/banner.css");
+@import	url("componets/container.css");
+@import url("componets/btn.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500;1,600&display=swap");
+
+body {
+	background-color: #D6DBDF;
+}
+
+.a {
+	font-size: 25px;
+}
+
+.row {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .banner h1 {
+    font-size: 24px;
+  }
+  .banner p {
+  	font-size: 18px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .banner h1 {
+    font-size: 20px;
+  }
+  .banner p {
+  	font-size: 19px;
+  }
+}
+
+/*@media (max-width: 720px) {
+   For a screen < 720px, this CSS will be read 
+  .video-size {
+  	height: 300px;
+  	width: 500px;
+  }
+}*/
+
+
+#text-size {
+	font-size: 28px;
+}
+
+.navbar {
+	text-align: center;
+}
+
+.link {
+	margin-left: 10px;
+}
+
+h2 {
+	color: white;
+	font-family: 'Indie Flower', cursive;
+}
+
+h5 {
+	font-size: 23px;
+}
+
+.video {
+	position: center;
+	padding: 30px;
+}
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.card p {
+	font-size: 18px;
+}
+
+.card-header {
+	font-size: 20px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
